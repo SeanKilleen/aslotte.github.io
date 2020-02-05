@@ -21,7 +21,7 @@ layout: default
                 {% if project.visibility == true %}
                 <div class="row">
                         <div class="col-md-2">
-                            <img src="/assets/img/{{project.project_thumbnail}}" class="company-logo" />
+                            <img src="/assets/img/{{project.project_thumbnail}}" class="company-logo" height="50" width="50" />
                         </div>
                         <div class="col-md-6">
                             <h4 class="experience-title"> {{ project.project_title }}</h4>
@@ -44,7 +44,7 @@ layout: default
                 {% if exp.visibility == true %}
                 <div class="row">
                         <div class="col-md-2">
-                            <img src="/assets/img/{{ exp.company_logo }}" class="company-logo" />
+                            <img src="/assets/img/{{ exp.company_logo }}" class="company-logo" height="50" width="50" />
                         </div>
                         <div class="col-md-6">
                             <h4 class="experience-title"> {{ exp.designation }}</h4>
