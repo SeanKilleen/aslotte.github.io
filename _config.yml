@@ -1,15 +1,15 @@
 
 # Site Settings
 
-title: Sujay Kundu  # Your Title 
-subtitle: Full Stack Web Developer 
-email: sujaykundu777@gmail.com  # Your Email
+title: Alexander Slotte  # Your Title 
+subtitle: Microsoft MVP
+email: alexander.slotte@gmail.com  # Your Email
 description: >-  
-  Sujay Kundu is Web Developer and Blogger
+  Alexander Slotte is a Microsoft MVP and Speaker
 baseurl: "/devlopr-starter" # the subpath of your site, e.g. /blog
-url: "https://sujaykundu.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: xplor4r
-github_username:  sujaykundu777
+url: "https://alexanderslotte.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: alexslotte
+github_username:  aslotte
 
 # Navigation 
 
@@ -18,78 +18,35 @@ urls:
       url: /
     - text: Blog
       url: /blog
-    - text: Shop
-      url : /shop
-    - text: Sample Page
-      url: /sample-page
     - text: Contact Me
       url : /contact
 
 # Author Details
 
-author_logo: profile.jpg
-author: Sujay Kundu
-author_bio: Hi, My Name is Sujay Kundu. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "sujaykundu777@gmail.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author_logo: profile.png
+author: Alexander Slotte
+author_bio: Hi, my name is Alexander Slotte and I'm a Microsoft MVP and speaker. I love all things ML.NET and C#.  
+author_email: "alexander.slotte@gmail.com"
+author_location: United States
+author_website_url: "https://alexanderslotte.com"
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-facebook_username: sujay.kundu2
-linkedin_username: sujaykundu
-behance_username: sujaykundu
-instagram_username: xplor4r
-medium_username: sujaykundu
-telegram_username: sujaykundu
-dribbble_username: sujaykundu777
-flickr_username: sujaykundu777
+twitter_username: alexslotte
+github_username:  aslotte
+linkedin_username: alexander-slotte-2110a415
 
 # Choose what to show ( true - display or false - don't display)
 show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
+show_author_education_details: false
+show_author_project_details: false
 
 author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Excella
+              company_logo: excella.jpg
+              company_url: https://excella.com
+              designation: Lead Software Engineer
+              description: Help companies reach their potential through technology
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
-
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
-
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: programmingebooks.png
-                project_title: Programming Ebooks
-                project_description: A Platform to easily find and read programming books
-                project_url: https://programmingebooks.com
-                visibility: true
-                
-#for comments using disqus
-disqus_shortname: sujay-kundu  
-
-# wakatime username
-wakatime_username: sujaykundu777
 
 # syntax highlighter
 markdown: kramdown
@@ -117,11 +74,6 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
-
-# Shop 
-
-collections:
- - products
 
 # Build settings
 
